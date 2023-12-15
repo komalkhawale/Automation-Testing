@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="28" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T12:01:50 IST" name="Suite" finished-at="2023-07-12T12:28:59 IST" duration-ms="1629199">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T12:01:50 IST" name="Test" finished-at="2023-07-12T12:28:59 IST" duration-ms="1629199">
+      <class name="TestCase.verifyEditProfile">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.verifyEditProfile@595b007d]" started-at="2023-07-12T12:22:36 IST" name="LunchBrowser" finished-at="2023-07-12T12:22:45 IST" duration-ms="9169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="EditProfile()[pri:0, instance:TestCase.verifyEditProfile@595b007d]" started-at="2023-07-12T12:22:45 IST" name="EditProfile" finished-at="2023-07-12T12:25:02 IST" duration-ms="136610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.verifyEditProfile@595b007d]" started-at="2023-07-12T12:25:02 IST" name="teardown" finished-at="2023-07-12T12:25:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.verifyEditProfile -->
+      <class name="TestCase.VerifyOEI">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyOEI@222545dc]" started-at="2023-07-12T12:09:30 IST" name="LunchBrowser" finished-at="2023-07-12T12:09:43 IST" duration-ms="12919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="OEI()[pri:0, instance:TestCase.VerifyOEI@222545dc]" started-at="2023-07-12T12:09:43 IST" name="OEI" finished-at="2023-07-12T12:13:12 IST" duration-ms="208692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OEI -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyOEI@222545dc]" started-at="2023-07-12T12:13:12 IST" name="teardown" finished-at="2023-07-12T12:13:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyOEI -->
+      <class name="TestCase.VerifyRisk">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyRisk@5c5eefef]" started-at="2023-07-12T12:13:12 IST" name="LunchBrowser" finished-at="2023-07-12T12:13:18 IST" duration-ms="6937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="Risk()[pri:0, instance:TestCase.VerifyRisk@5c5eefef]" started-at="2023-07-12T12:13:18 IST" name="Risk" finished-at="2023-07-12T12:19:59 IST" duration-ms="400057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Risk -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyRisk@5c5eefef]" started-at="2023-07-12T12:19:59 IST" name="teardown" finished-at="2023-07-12T12:19:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyRisk -->
+      <class name="TestCase.VerifyLoginTestCaseNegative">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyLoginTestCaseNegative@72d1ad2e]" started-at="2023-07-12T12:25:02 IST" name="LunchBrowser" finished-at="2023-07-12T12:25:18 IST" duration-ms="15816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="LoginTestCaseNegative()[pri:0, instance:TestCase.VerifyLoginTestCaseNegative@72d1ad2e]" started-at="2023-07-12T12:25:18 IST" name="LoginTestCaseNegative" finished-at="2023-07-12T12:26:14 IST" duration-ms="56505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCaseNegative -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyLoginTestCaseNegative@72d1ad2e]" started-at="2023-07-12T12:26:14 IST" name="teardown" finished-at="2023-07-12T12:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyLoginTestCaseNegative -->
+      <class name="TestCase.VerifyInsights">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyInsights@6ae5aa72]" started-at="2023-07-12T12:04:09 IST" name="LunchBrowser" finished-at="2023-07-12T12:04:18 IST" duration-ms="8444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="Insights()[pri:0, instance:TestCase.VerifyInsights@6ae5aa72]" started-at="2023-07-12T12:04:18 IST" name="Insights" finished-at="2023-07-12T12:09:30 IST" duration-ms="312012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Insights -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyInsights@6ae5aa72]" started-at="2023-07-12T12:09:30 IST" name="teardown" finished-at="2023-07-12T12:09:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyInsights -->
+      <class name="TestCase.VerifyLoginTestCase">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:TestCase.VerifyLoginTestCase@6572421]" started-at="2023-07-12T12:01:49 IST" name="BeforeSuite" finished-at="2023-07-12T12:01:50 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyLoginTestCase@6572421]" started-at="2023-07-12T12:01:50 IST" name="LunchBrowser" finished-at="2023-07-12T12:02:00 IST" duration-ms="10309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="LoginTestCase()[pri:0, instance:TestCase.VerifyLoginTestCase@6572421]" started-at="2023-07-12T12:02:00 IST" name="LoginTestCase" finished-at="2023-07-12T12:02:07 IST" duration-ms="7031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyLoginTestCase@6572421]" started-at="2023-07-12T12:02:07 IST" name="teardown" finished-at="2023-07-12T12:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:TestCase.VerifyLoginTestCase@6572421]" started-at="2023-07-12T12:28:59 IST" name="AfterSuite" finished-at="2023-07-12T12:29:00 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- TestCase.VerifyLoginTestCase -->
+      <class name="TestCase.VerifyDashboard">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyDashboard@6c64cb25]" started-at="2023-07-12T12:02:07 IST" name="LunchBrowser" finished-at="2023-07-12T12:02:14 IST" duration-ms="6952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="Dashboard()[pri:0, instance:TestCase.VerifyDashboard@6c64cb25]" started-at="2023-07-12T12:02:14 IST" name="Dashboard" finished-at="2023-07-12T12:04:09 IST" duration-ms="115534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dashboard -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyDashboard@6c64cb25]" started-at="2023-07-12T12:04:09 IST" name="teardown" finished-at="2023-07-12T12:04:09 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyDashboard -->
+      <class name="TestCase.VerifyAnalysis_SecurityPulse">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyAnalysis_SecurityPulse@16293aa2]" started-at="2023-07-12T12:19:59 IST" name="LunchBrowser" finished-at="2023-07-12T12:20:05 IST" duration-ms="6572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="SecurityPulse()[pri:0, instance:TestCase.VerifyAnalysis_SecurityPulse@16293aa2]" started-at="2023-07-12T12:20:05 IST" name="SecurityPulse" finished-at="2023-07-12T12:20:36 IST" duration-ms="31000" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Analysis"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62c19779166b075c563dea1bb225af0e, findElement {using=link text, value=Analysis}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57122/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62c19779166b075c563dea1bb225af0e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Analysis"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62c19779166b075c563dea1bb225af0e, findElement {using=link text, value=Analysis}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57122}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57122/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62c19779166b075c563dea1bb225af0e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at PageObjectModel.Analysis_SecurityPulse.Analysis(Analysis_SecurityPulse.java:59)
+at TestCase.VerifyAnalysis_SecurityPulse.SecurityPulse(VerifyAnalysis_SecurityPulse.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecurityPulse -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyAnalysis_SecurityPulse@16293aa2]" started-at="2023-07-12T12:20:38 IST" name="teardown" finished-at="2023-07-12T12:20:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyAnalysis_SecurityPulse -->
+      <class name="TestCase.VerifyEditProfileNegative">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyEditProfileNegative@2d7275fc]" started-at="2023-07-12T12:26:14 IST" name="LunchBrowser" finished-at="2023-07-12T12:26:21 IST" duration-ms="6968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="EditProfileNegative()[pri:0, instance:TestCase.VerifyEditProfileNegative@2d7275fc]" started-at="2023-07-12T12:26:21 IST" name="EditProfileNegative" finished-at="2023-07-12T12:28:59 IST" duration-ms="157346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileNegative -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyEditProfileNegative@2d7275fc]" started-at="2023-07-12T12:28:59 IST" name="teardown" finished-at="2023-07-12T12:28:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyEditProfileNegative -->
+      <class name="TestCase.VerifyAnalysis_Perspective">
+        <test-method is-config="true" signature="LunchBrowser()[pri:0, instance:TestCase.VerifyAnalysis_Perspective@5158b42f]" started-at="2023-07-12T12:20:38 IST" name="LunchBrowser" finished-at="2023-07-12T12:20:44 IST" duration-ms="6340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LunchBrowser -->
+        <test-method signature="Perspective()[pri:0, instance:TestCase.VerifyAnalysis_Perspective@5158b42f]" started-at="2023-07-12T12:20:44 IST" name="Perspective" finished-at="2023-07-12T12:22:36 IST" duration-ms="112372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Perspective -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCase.VerifyAnalysis_Perspective@5158b42f]" started-at="2023-07-12T12:22:36 IST" name="teardown" finished-at="2023-07-12T12:22:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.VerifyAnalysis_Perspective -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

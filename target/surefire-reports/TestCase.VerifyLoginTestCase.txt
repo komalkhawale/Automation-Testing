@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestCase.VerifyLoginTestCase
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.719 s <<< FAILURE! - in TestCase.VerifyLoginTestCase
+LoginTestCase(TestCase.VerifyLoginTestCase)  Time elapsed: 2.071 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "extentManager.ExtentManager.test" is null
+	at TestCase.VerifyLoginTestCase.LoginTestCase(VerifyLoginTestCase.java:31)
+
