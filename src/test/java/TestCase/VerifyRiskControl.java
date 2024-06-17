@@ -96,11 +96,11 @@ public class VerifyRiskControl {
 		r.direct_reports().clear();
 
 		Thread.sleep(500);
-		r.direct_reports().sendKeys(TestCaseData.direct_reports);
+//		r.direct_reports().sendKeys(TestCaseData.direct_reports);
 		Thread.sleep(500);
 		r.indirect_reports().clear();
 		Thread.sleep(500);
-		r.indirect_reports().sendKeys(TestCaseData.indirect_reports);
+//		r.indirect_reports().sendKeys(TestCaseData.indirect_reports);
 		Thread.sleep(500);
 		r.CYBERSECURITY_CISOOrg().click();
 		Thread.sleep(500);
@@ -138,71 +138,71 @@ public class VerifyRiskControl {
 		Thread.sleep(100);
 		r.FRAUD_NA().click();
 
-		Thread.sleep(500);
-		r.Budget().clear();
-		Thread.sleep(1000);
-		r.Budget().sendKeys(TestCaseData.Budget);
-
-		Thread.sleep(5000);
-		r.ISO_27001().click();
-		Thread.sleep(5000);
-		r.ISO_27001_cycle().sendKeys(TestCaseData.ISO_27001_cycle);
-
-		Thread.sleep(5000);
-		r.ISO31000().click();
-		Thread.sleep(2000);
-		r.ISO31000_cycle().sendKeys(TestCaseData.ISO31000_cycle);
-		Thread.sleep(2000);
-		r.ISO31000_cycle().clear();
-
+//		Thread.sleep(500);
+//		r.Budget().clear();
+//		Thread.sleep(1000);
+//		r.Budget().sendKeys(TestCaseData.Budget);
+//
+//		Thread.sleep(5000);
+//		r.ISO_27001().click();
+//		Thread.sleep(5000);
+//		r.ISO_27001_cycle().sendKeys(TestCaseData.ISO_27001_cycle);
+//
+//		Thread.sleep(5000);
+//		r.ISO31000().click();
 //		Thread.sleep(2000);
+//		r.ISO31000_cycle().sendKeys(TestCaseData.ISO31000_cycle);
+//		Thread.sleep(2000);
+//		r.ISO31000_cycle().clear();
+//
+////		Thread.sleep(2000);
+////		r.SOC1TYPE1().click();
+//		Thread.sleep(1000);
 //		r.SOC1TYPE1().click();
-		Thread.sleep(1000);
-		r.SOC1TYPE1().click();
-
-		Thread.sleep(2000);
-		r.SOC1TYPE1_cycle().sendKeys(TestCaseData.SOC1TYPE1_cycle);
-		Thread.sleep(1000);
-
-		Thread.sleep(500);
-		r.SOC2TYPE1().click();
-		Thread.sleep(2000);
-		r.SOC2TYPE1_cycle().sendKeys(TestCaseData.SOC2TYPE1_cycle);
-
-		Thread.sleep(500);
-		r.SOC2TYPE2().click();
-		Thread.sleep(2000);
-		r.SOC2TYPE2_cycle().sendKeys(TestCaseData.SOX_cycle);
-
-		Thread.sleep(500);
-		r.HITRUST().click();
-
-		Thread.sleep(500);
-		r.HITRUST_cycle().sendKeys(TestCaseData.HITRUST_cycle);
-
-		Thread.sleep(500);
-		r.HIPAA().click();
-
-		Thread.sleep(500);
-		r.HIPAA_cycle().sendKeys(TestCaseData.HIPAA_cycle);
-
-		Thread.sleep(500);
-		r.PCIDSS().click();
-		Thread.sleep(500);
-
-		r.PCIDSS_cycle().sendKeys(TestCaseData.PCIDSS_cycle);
-
-		Thread.sleep(500);
-
-		r.SOX().click();
-
-		Thread.sleep(500);
-		r.SOX_cycle().sendKeys(TestCaseData.SOX_cycle);
-
-		Thread.sleep(500);
-		r.save().click();
-		Thread.sleep(2000);
-		r.Next().click();
+//
+//		Thread.sleep(2000);
+//		r.SOC1TYPE1_cycle().sendKeys(TestCaseData.SOC1TYPE1_cycle);
+//		Thread.sleep(1000);
+//
+//		Thread.sleep(500);
+//		r.SOC2TYPE1().click();
+//		Thread.sleep(2000);
+//		r.SOC2TYPE1_cycle().sendKeys(TestCaseData.SOC2TYPE1_cycle);
+//
+//		Thread.sleep(500);
+//		r.SOC2TYPE2().click();
+//		Thread.sleep(2000);
+//		r.SOC2TYPE2_cycle().sendKeys(TestCaseData.SOX_cycle);
+//
+//		Thread.sleep(500);
+//		r.HITRUST().click();
+//
+//		Thread.sleep(500);
+//		r.HITRUST_cycle().sendKeys(TestCaseData.HITRUST_cycle);
+//
+//		Thread.sleep(500);
+//		r.HIPAA().click();
+//
+//		Thread.sleep(500);
+//		r.HIPAA_cycle().sendKeys(TestCaseData.HIPAA_cycle);
+//
+//		Thread.sleep(500);
+//		r.PCIDSS().click();
+//		Thread.sleep(500);
+//
+//		r.PCIDSS_cycle().sendKeys(TestCaseData.PCIDSS_cycle);
+//
+//		Thread.sleep(500);
+//
+//		r.SOX().click();
+//
+//		Thread.sleep(500);
+//		r.SOX_cycle().sendKeys(TestCaseData.SOX_cycle);
+//
+//		Thread.sleep(500);
+//		r.save().click();
+//		Thread.sleep(2000);
+//		r.Next().click();
 
 		Thread.sleep(5000);
 

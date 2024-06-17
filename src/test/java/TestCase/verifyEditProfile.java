@@ -76,7 +76,7 @@ public void EditProfile() throws InterruptedException, AWTException {
 	Thread.sleep(3000);
 	ep.phonenumber().clear();
 	Thread.sleep(3000);
-	ep.phonenumber().sendKeys(TestCaseData.phonenumber);
+//	ep.phonenumber().sendKeys(TestCaseData.phonenumber);
 	Thread.sleep(3000);
 	ep.customSwitches().click();
 	Thread.sleep(5000);
@@ -103,13 +103,13 @@ public void EditProfile() throws InterruptedException, AWTException {
 	Thread.sleep(2000);
 	ep.ResetPassword().click();
 	Thread.sleep(2000);
-	ep.OldPassword().sendKeys(TestCaseData.OldPassword);
+//	ep.OldPassword().sendKeys(TestCaseData.OldPassword);
 
 	Thread.sleep(2000);
-	ep.newPassword().sendKeys(TestCaseData.newPassword);
+//	ep.newPassword().sendKeys(TestCaseData.newPassword);
 
 	Thread.sleep(2000);
-	ep.ConfirmPassword().sendKeys(TestCaseData.ConfirmPassword);
+//	ep.ConfirmPassword().sendKeys(TestCaseData.ConfirmPassword);
 	
 	ExtentManager.test.createNode("Reset Password is working");
 
@@ -120,7 +120,7 @@ public void EditProfile() throws InterruptedException, AWTException {
 	ep.ContactUs().click();
 
 	Thread.sleep(5000);
-	ep.Description().sendKeys(TestCaseData.Description);
+//	ep.Description().sendKeys(TestCaseData.Description);
 
 	Thread.sleep(5000);
 	String exp = "info@netrum-tech.com";

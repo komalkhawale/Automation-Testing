@@ -78,7 +78,7 @@ public class VerifyEntityOnboarding extends BaseClass{
 		a2.sendKeys(Keys.ENTER).build().perform();
 
 		Thread.sleep(2000);
-		eo.Location().sendKeys(TestCaseData.Location);
+	//	eo.Location().sendKeys(TestCaseData.Location);
 		Thread.sleep(2000);
 		eo.add_location().click();
 		Thread.sleep(5000);

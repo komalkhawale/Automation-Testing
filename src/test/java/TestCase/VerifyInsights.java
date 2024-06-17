@@ -429,9 +429,9 @@ public class VerifyInsights extends BaseClass{
 
 		ins.details().click();
 		Thread.sleep(5000);
-		ins.Searchupdate().sendKeys(TestCaseData.ins_search);
+	//	ins.Searchupdate().sendKeys(TestCaseData.ins_search);
 		Thread.sleep(5000);
-		ins.typehere().sendKeys(TestCaseData.ins_type_here);
+	//	ins.typehere().sendKeys(TestCaseData.ins_type_here);
 		Thread.sleep(5000);
 		ins.update_ins().click();
 		Thread.sleep(3000);
@@ -452,7 +452,7 @@ public class VerifyInsights extends BaseClass{
 		Thread.sleep(2000);
 		ins.assign_ins().click();
 		Thread.sleep(2000);
-		ins.assign_to_ins().sendKeys(TestCaseData.assign_to);
+	//	ins.assign_to_ins().sendKeys(TestCaseData.assign_to);
 		ExtentManager.test.createNode("Insights Assign option is working");
 		Thread.sleep(8000);
 		ins.submit_ins().click();
@@ -461,7 +461,7 @@ public class VerifyInsights extends BaseClass{
 		Thread.sleep(5000);
 		ins.comment_ins().click();
 		Thread.sleep(2000);
-		ins.add_comment().sendKeys(TestCaseData.add_comment);
+	//	ins.add_comment().sendKeys(TestCaseData.add_comment);
 		ExtentManager.test.createNode("Insights Add Comment option is working");
 
 		

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCase.VerifyRiskImpactNegativeTestCase">
+      <class name="TestCase.Allmoduletestcases">
         <methods>
           <include name="BeforeSuite"/>
           <include name="AfterSuite"/>
-          <include name="RiskImpactNegativeTestCase"/>
+          <include name="Dashboard"/>
           <include name="teardown"/>
           <include name="LunchBrowser"/>
         </methods>
-      </class> <!-- TestCase.VerifyRiskImpactNegativeTestCase -->
+      </class> <!-- TestCase.Allmoduletestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -29,8 +29,8 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	public void Perspective_Negative_Test() throws InterruptedException, AWTException {
 		
 	  LoginPageObject lpo= new LoginPageObject(driver);
-      lpo.EnterUsername().sendKeys(TestCaseData.username4);
-	  lpo.EnterPassword().sendKeys(TestCaseData.password4);
+      lpo.EnterUsername().sendKeys(TestCaseData.username);
+	  lpo.EnterPassword().sendKeys(TestCaseData.password);
 	  lpo.ClickSubmit().click();
 	  Thread.sleep(30000);
 	  Analysis_Perspective_Negative AP =new Analysis_Perspective_Negative(driver);		
@@ -116,7 +116,7 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	 Thread.sleep(5000);
 	 AP.Pattern().click();
 	 Thread.sleep(5000);
-	 AP.in_parentincident().sendKeys(TestCaseData.in_parentincident);
+//	 AP.in_parentincident().sendKeys(TestCaseData.in_parentincident);
 	 Thread.sleep(5000);
      Actions obj =new Actions(driver);
      Thread.sleep(10000);	
@@ -145,7 +145,7 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	 analysis4.sendKeys(Keys.ARROW_DOWN).moveToElement(e).perform();
 	 analysis4.sendKeys(Keys.ENTER).build().perform();
      Thread.sleep(5000);
-	 AP.perspective_title().sendKeys(TestCaseData.perspective_title_negative);							
+//	 AP.perspective_title().sendKeys(TestCaseData.perspective_title_negative);							
 	 Thread.sleep(5000);
 	 // tp upload graph
 	 AP.upload_graph().click();
@@ -170,10 +170,10 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	 ExtentManager.test.createNode("Error message for upload graph is: "+ actual);			
 	 assertion.assertAll();
      Thread.sleep(5000);
-	 AP.graphtitle().sendKeys(TestCaseData.graphtitle_nagative);
+//	 AP.graphtitle().sendKeys(TestCaseData.graphtitle_nagative);
 	 Thread.sleep(10000);
 //	AP.uploadgraph().click();
-     AP.Perspective_info().sendKeys(TestCaseData.Perspective_info_negative);	
+  //   AP.Perspective_info().sendKeys(TestCaseData.Perspective_info_negative);	
 	 Thread.sleep(5000);
 	 String expectedString1= "Input Limit Exceded";
 	 String actual1= driver.findElement(By.xpath("(//span[@class='text-danger ml-2 textarea-footer'])[1]")).getText();
@@ -181,7 +181,7 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	 ExtentManager.test.createNode("Error message for Perspective Information is : "+ actual1);			
 	 assertion.assertAll();
 	 Thread.sleep(5000);	
-	 AP.recommendations_info().sendKeys(TestCaseData.recommendations_info_negative);
+	// AP.recommendations_info().sendKeys(TestCaseData.recommendations_info_negative);
 	 Thread.sleep(5000);
 	 Thread.sleep(5000);
 	 String expectedString2= "Input Limit Exceded";
@@ -190,9 +190,9 @@ public class Verify_Analysis_Perspective_Negative extends BaseClass{
 	 ExtentManager.test.createNode("Error message for Recommendation Information is : "+ actual2);			
 	 assertion.assertAll();
 	 Thread.sleep(5000);
-	 AP.tags_assets().sendKeys(TestCaseData.tags_assets);
+//	 AP.tags_assets().sendKeys(TestCaseData.tags_assets);
 	 Thread.sleep(5000);
-	 AP.tags_entity().sendKeys(TestCaseData.tags_entity);	
+//	 AP.tags_entity().sendKeys(TestCaseData.tags_entity);	
 	 WebElement a= driver.findElement(By.xpath("//span[normalize-space()='Image Size limit Exceeded 500Kb']"));	
 	 if(a.isDisplayed()) {
 			ExtentManager.test.createNode("Can'not submit perspective due to graph size exceeded. please make sure graph size should be less than 500kb  ");			

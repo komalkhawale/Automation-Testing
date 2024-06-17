@@ -2,22 +2,15 @@ package Resources;
 
 public class TestCaseData {
 
-	public static String username ="rtaware@etek.com";
-	public static String password ="Secure@1234";
-	public static String username1 ="rushikesh.taware@clientadmin.com";
-	public static String password1 ="12345678";
-	public static String username2 ="rushikesh.taware@clientadmin.com";
-	public static String password2 ="1234567890";
-	public static String username3 ="kkhawale@etek.com";
-	public static String password3 ="Komal@1234";
-	public static String username4="kkhawale@etek.com";
-	public static String password4="Komal@1234";
+	public static String username ="kkhawale@etek.com";
+	public static String password ="Niva@123";
+	
 	public static String EnterEmail_forgetpassword ="kkhawale@etek.com";
 	public static String searchbar ="24761";
 	public static String expectedString ="Password verification failed.";
 	public static String Searchupdate ="please search update";
 	public static String typehere ="please check history of updates";
-	public static String Assign ="rushikesh";
+	public static String Assign ="KOMAL";
 	public static String commenttype ="please help to resolve this incident";
 	
 	//insights
@@ -26,7 +19,7 @@ public class TestCaseData {
 
 	public static String ins_type_here ="Automation testing is the process of testing software and other tech products to ensure it meets strict requirements. Essentially, it’s a test to double-check that the equipment or software does exactly what it was designed to do. It tests for bugs, defects, and any other issues that can arise with product development.";
 
-	public static String assign_to ="rushikesh";
+	public static String assign_to ="KOMAL";
 
 	public static String add_comment ="this comment is for testing purpose";
 

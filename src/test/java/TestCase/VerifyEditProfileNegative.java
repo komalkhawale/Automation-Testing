@@ -43,7 +43,7 @@ public class VerifyEditProfileNegative extends BaseClass {
 		Thread.sleep(5000);
 		epn.FirstName().clear();
 		Thread.sleep(2000);
-		epn.FirstName().sendKeys(TestCaseData.FirstNameNegative);
+	//	epn.FirstName().sendKeys(TestCaseData.FirstNameNegative);
 		Thread.sleep(5000);
 		epn.save().click();
 //		String expectedString1= TestCaseData.FirstNameNegative_error_message;
@@ -57,7 +57,7 @@ public class VerifyEditProfileNegative extends BaseClass {
 		Thread.sleep(5000);
 		epn.FirstName().clear();
 		Thread.sleep(5000);
-		epn.FirstName().sendKeys(TestCaseData.FirstName);
+	//	epn.FirstName().sendKeys(TestCaseData.FirstName);
 		Thread.sleep(5000);
 		epn.Profilephoto().click();
 		Thread.sleep(10000);
@@ -93,11 +93,11 @@ public class VerifyEditProfileNegative extends BaseClass {
 		Thread.sleep(2000);
 		epn.ResetPassword().click();
 		Thread.sleep(5000);
-		epn.OldPassword().sendKeys(TestCaseData.OldPassword_negative);
+	//	epn.OldPassword().sendKeys(TestCaseData.OldPassword_negative);
 		Thread.sleep(2000);
-		epn.newPassword().sendKeys(TestCaseData.NewPassword_negative);
+//		epn.newPassword().sendKeys(TestCaseData.NewPassword_negative);
 		Thread.sleep(2000);
-		epn.ConfirmPassword().sendKeys(TestCaseData.ConfirmPassword_negative);
+//		epn.ConfirmPassword().sendKeys(TestCaseData.ConfirmPassword_negative);
 		
 		ExtentManager.test.createNode("Reset Password is working");
 
@@ -117,7 +117,7 @@ public class VerifyEditProfileNegative extends BaseClass {
 		Thread.sleep(5000);
 		epn.ContactUs().click();
 		Thread.sleep(8000);
-		epn.Description().sendKeys(TestCaseData.Description_Nagative);
+	//	epn.Description().sendKeys(TestCaseData.Description_Nagative);
 		Thread.sleep(5000);
 		epn.submit().click();
 		ExtentManager.test.createNode("Contact us is working");

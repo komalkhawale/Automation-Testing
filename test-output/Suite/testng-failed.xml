@@ -6,15 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCase.VerifyRisk">
+      <class name="TestCase.Allmoduletestcases">
         <methods>
-          <include name="Risk"/>
           <include name="BeforeSuite"/>
           <include name="AfterSuite"/>
+          <include name="Dashboard"/>
           <include name="teardown"/>
           <include name="LunchBrowser"/>
         </methods>
-      </class> <!-- TestCase.VerifyRisk -->
+      </class> <!-- TestCase.Allmoduletestcases -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -7,8 +7,12 @@
   <test thread-count="5" name="Test">
     <classes>
     
-     
+    <class name="TestCase.Allmoduletestcases"/>
+    <!--
+    <class name="TestCase.VerifyDashboard"/>
+     <class name="TestCase.VerifyInsights"/>
       <class name="TestCase.VerifyRisk"/>
+      
       <class name="TestCase.VerifyEntityOnboarding"/>
      <class name="TestCase.VerifyRiskImpact"/>
      <class name="TestCase.VerifyRiskImpactNegativeTestCase"/>
@@ -17,22 +21,11 @@
      
        <class name="TestCase.VerifyCostOfSecurityControl"/>
      <class name="TestCase.VerifyCostOfSecurityControlNegative"/>
-     <!--
+     
      
       <class name="TestCase.Verify_Advisory"/>
 
-      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     <class name="TestCase.VerifyAssetSummaryValidation"/>   
+      <class name="TestCase.VerifyAssetSummaryValidation"/>   
      <class name="TestCase.VerifyAssetSummaryValidationNegative"/>
       
      <class name="TestCase.VerifyBrokenLinks"/>
@@ -41,6 +34,7 @@
      <class name="TestCase.VerifyOEI"/>
      <class name="TestCase.VerifyRiskDashboard"/>
      <class name="TestCase.VerifyRisk"/>
+     
      <class name="TestCase.VerifyRoSI"/>
      <class name="TestCase.VerifyAnalysis_Perspective"/>
      <class name="TestCase.VerifyAnalysis_SecurityPulse"/>
